@@ -31,12 +31,12 @@ if not str_do51=='n':
 
 
 
-if salary <= 3500:
-    print("少于起征点，不用扣税。税收收入："+3500)
+if salary <= 5000:
+    print("少于起征点，不用扣税。税收收入："+5000)
     exit()
 
 # 去掉起征点 
-net_salary = salary-3500
+net_salary = salary-5000
 
 # 根据收入区间计算扣税比例，得出税后收入
 if net_salary<=1500:
